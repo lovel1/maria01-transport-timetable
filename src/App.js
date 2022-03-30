@@ -17,7 +17,7 @@ function App() {
 }
 
 const styles = {
-  container: 'bg-slate-200 text-slate-900 min-h-screen flex flex-col md:flex-row shadow'
+  container: 'bg-slate-200 text-slate-900 min-h-screen flex flex-col lg:flex-row shadow'
 }
 
 export default App;

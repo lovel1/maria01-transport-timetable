@@ -32,7 +32,7 @@ const TimetableSection = () => {
 }
 
 const styles = {
-    container: 'px-5 w-full md:w-1/3 bg-slate-50 md:px-10 pt-10 flex flex-col gap-y-5',
+    container: 'px-5 w-full lg:w-1/3 bg-slate-50 lg:px-10 pt-10 flex flex-col gap-y-5',
 }
 
 export default TimetableSection

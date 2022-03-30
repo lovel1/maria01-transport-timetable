@@ -24,7 +24,7 @@ const InfoSection = () => {
 }
 
 const styles = {
-    container: 'py-10 md:py-0 flex-1 px-10 md:flex justify-center items-center',
+    container: 'py-10 lg:py-0 flex-1 px-10 lg:flex justify-center items-center',
     hr: 'border-slate-300 my-5',
 }
 
