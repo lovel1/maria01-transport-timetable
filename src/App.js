@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import InfoSection from "./components/sections/InfoSection";
+import TimetableSection from "./components/sections/TimetableSection";
+import { Provider } from 'react-redux'
+import { store } from "./store"
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <div className={"App " + styles.container}>
+          <TimetableSection />
+          <InfoSection />
+      </div>
+    </Provider>
   );
+}
+
+const styles = {
+  container: 'bg-slate-200 text-slate-900 min-h-screen flex flex-col md:flex-row shadow'
 }
 
 export default App;

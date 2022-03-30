@@ -1,0 +1,2 @@
+export const SET_ORIGIN = 'SET_ORIGIN'
+export const REMOVE_ORIGIN = 'REMOVE_ORIGIN'
